@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+        <link rel="stylesheet" href="Home.css">
+        <link rel="stylesheet" href="../Header.css">
+    </head>
+
+    <body>
+
+        <header>
+            <nav>
+                <h1 class = "logo"><a href="Home.html">Meu Site</a></h1>
+                <ul>
+                    <li><a id = "cadastro" href="..\Cadastro\Cadastro.html">Cadastro</a></li>
+                    <li><a id = "login" href="..\Login\Login.html">Login</a></li>
+                    <li><a href="#">Pesquisa</a></li>
+                    <li><button id="Logout">Logout</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class = "boasVindas">
+                <p>Olá! Boas vindas ao site TMDBsiteClone!</p>
+            </div>
+            
+            <div class = "hrFilmesNovidades">
+                <div class = "Palavras">
+                    <span class = "Novidades">Novidades</span>
+                    <span class = "Mais">Mais</span>
+                </div>
+                <hr class = "hrNovidades">
+            </div>
+
+            <div class = "FotosFilmesNovidades">
+                <div class = "FotoFilme"><a href="..\Filmes\EEAAO\EEAAO.html"><img id = "movieImage1" src = ""></a></div>
+                <div class = "FotoFilme"><a href="#"></a></div>
+                <div class = "FotoFilme"><a href="#"></a></div>
+                <div class = "FotoFilme"><a href="#"></a></div>
+                <div class = "FotoFilme"><a href="#"></a></div>
+                <div class = "FotoFilme"><a href="#"></a></div>
+            </div>
+            
+        </main>
+
+        <footer>
+        </footer>
+        
+    </body>
+    <script src="../node_modules/jwt-decode/build/jwt-decode.js"></script>
+    <script src="Home.js"></script> 
+    <script src="../AuthCookie.js"></script> 
+</html>

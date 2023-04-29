@@ -1,0 +1,54 @@
+.boasVindas{
+    display: block;
+    height: 15%; 
+}
+
+.boasVindas p{
+    font-size: 30px;
+    position: relative; top: 50%; transform: translateY(-50%);
+}
+
+.hrFilmesNovidades .Palavras{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.hrFilmesNovidades .hrNovidades{
+    margin: 0;
+}
+.hrFilmesNovidades .Palavras .Novidades{
+    font-size: 22px;
+}
+.hrFilmesNovidades .Palavras .Mais{
+    font-size: 18px;
+}
+
+.FotosFilmesNovidades{
+    display: flex;
+    height: 231px;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.FotosFilmesNovidades .FotoFilme{
+    display: block;
+    overflow: hidden;
+    background-color: aquamarine;
+    height: 231px;
+    width: 154px;
+    border-radius: 10px;
+
+}
+
+.FotosFilmesNovidades .FotoFilme a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#movieImage {
+    max-width: auto;
+    max-height: auto;
+  }

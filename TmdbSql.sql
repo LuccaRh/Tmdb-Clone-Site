@@ -1,0 +1,16 @@
+CREATE DATABASE Tmdb;
+
+CREATE TABLE Tmdb.dbo.Tmdb(
+	Id INT PRIMARY KEY IDENTITY,
+	Email VARCHAR(200) NOT NULL,
+	Username VARCHAR(128) NOT NULL,
+	Senha VARCHAR(128) NOT NULL,
+	Role VARCHAR(50),
+	Token VARCHAR(150),
+) 
+
+/*Emails únicos*/
+ALTER TABLE Tmdb.dbo.Tmdb ADD CONSTRAINT email_unico UNIQUE (Email);
+
+SELECT * FROM Tmdb.dbo.Tmdb;
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="EEAAO.css">
+    <link rel="stylesheet" href="../../Header.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo"><a href="\..\..\Home\Home.html">Meu Site</a></h1>
+            <ul>
+                <li><a id = "cadastro" href="\..\..\Cadastro\Cadastro.html">Cadastro</a></li>
+                <li><a id = "login" href="#">Login</a></li>
+                <li><a href="#">Pesquisa</a></li>
+                <li><button id="Logout">Logout</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="FilmeContainerImage">
+            <img id="movieImage1" src="https://image.tmdb.org/t/p/original/zsStSWz5KtPs26p2oigH9cNb43R.jpg">
+        </div>
+
+        <div class="FilmeTituloCastGenre">
+            <p>Everything Everywhere All at Once</p>
+            <p>Cast</p>
+            <p>Gênero</p>
+        </div>
+
+        <div class="FilmeMétodos">
+
+        </div>
+
+        <div class="FilmeReviews">
+            <div class="comments-section">
+                <h2>Comments</h2>
+                <form id="comment-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                    <label for="comment">Comment</label>
+                    <textarea id="comment" required></textarea>
+                    <button type="submit">Post Comment</button>
+                </form>
+                <div class="comments-container"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../../node_modules/jwt-decode/build/jwt-decode.js"></script>
+<script src="../../AuthCookie.js"></script>
+
+</html>
